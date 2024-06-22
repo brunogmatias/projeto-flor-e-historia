@@ -16,14 +16,26 @@
 
 
 header{
-    background-image: url(imagens/rosas.jpg);
+    background-image: url(imagens/rosas-m.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    padding-bottom: 100px;
 }
 
 header > h1{
     font-family: var(--fonte-p);
     
     
+}
+
+section{
+    padding-bottom: 400px;
+}
+
+section#margarida{
+    background-image: url(imagens/margarida-p.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
 }
